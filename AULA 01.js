@@ -45,4 +45,4 @@ let nome4 = 'Nathan'
 
 console.log(`Meu nome é ${nome2}, 
 minha namorada é ${nome1}, ${nome3} é minha sogra 
-e ${nome4} é meu cunhado.`) //templateString
+e ${nome4} é meu cunhado.`) 
