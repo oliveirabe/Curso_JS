@@ -25,10 +25,5 @@ for (item of lista1) {
 // divisor é por qual numero voce quer dividir
 // resto é pra saber se resta 0 ou algo diferente de 0
 
-// 10 / 2 é igual a 5 e nao resta nada ou seja: CALMA AI 
 
-// O for sempre vai ter uma variavel de apoio (item)
-// O item vai salvar o valor de cada elemento da fila por vez
 
-// Se a lista tiver 10 elementos, o item vai salvar o valor de cada um de cada vez
-// Entendeu o lance do item?

@@ -14,6 +14,7 @@ const casa = {
 }
 
 console.log(familia, ano, frase, casa)
+console.log(casa.quartos)
 
 const carro = {
     portas: 4,
@@ -46,3 +47,23 @@ let nome4 = 'Nathan'
 console.log(`Meu nome é ${nome2}, 
 minha namorada é ${nome1}, ${nome3} é minha sogra 
 e ${nome4} é meu cunhado.`) 
+
+const familia2 = {
+    pai: 'Gilvan',
+    mae: 'Tania',
+    irmao: 'Nathan',
+    noivo: 'Giovanni',
+    Cachorro: 'Não',
+    Gato: {
+        nomeGato: 'Chicó',
+        idade: '1 ano',
+        donoGato: 'Beatriz'
+    }
+}
+
+console.log(familia2)
+console.log(familia2.noivo)
+console.log(familia2.Gato.donoGato)
+
+const nome = familia2.Gato.donoGato
+console.log(nome)

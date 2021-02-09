@@ -90,3 +90,63 @@ function notas (lista){
 const Medias = notas ([6, 8, 5])
 console.log(Medias)
 
+// Função s/ retorno
+function imprimirSoma(a, b){
+  console.log(a+b)
+}
+
+imprimirSoma(2,3)
+imprimirSoma('Beatriz', 'Sousa')
+imprimirSoma(2,8,15,25,2,3)
+
+// Função com retorno
+function soma (a,b){
+  return a + b
+}
+
+console.log(soma(2,3))
+
+// Armazenando uma função em uma variável
+
+const imprimirSoma2 = function (a,b){
+  console.log(a + b)
+}
+
+imprimirSoma2(2, 8)
+
+// Armazenando uma função arrow em uma variável
+
+const somar = (a,b) => {
+  return a + b
+}
+
+console.log(somar(2,6))
+
+// Retorno Implícito
+
+const subtracao = (a, b) => a - b
+  console.log(subtracao(8,2))
+
+  const imprimir = a => console.log(a)
+  imprimir('UAU!')
+
+  function idade (lista){
+    
+    for (maioridade of lista){
+      if (maioridade >= 18) {
+        console.log('Maior de idade')}
+      else {
+        console.log('Menor de idade')
+      }
+    }
+  }
+
+  console.log(idade([12, 22, 26, 2, 18]))
+  
+  function ano (anoNascimento){
+    const calculo = 2021 - anoNascimento
+
+    return calculo
+  }
+
+  console.log(ano(1994))
